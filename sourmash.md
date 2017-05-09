@@ -179,4 +179,14 @@ the recovered matches hit 100.0% of the query
 You can use this on metagenomes (assembled and unassembled) as well; you've
 just got to make the signature files.
 
+To see this in action, here is gather running on a signature generated
+from some sequences that assemble (but don't align to known genomes)
+from the
+[Shakya et al. 2013 mock metagenome paper](https://www.ncbi.nlm.nih.gov/pubmed/23387867).
+
+```
+curl -O -L https://github.com/ngs-docs/2017-lapaz-assembly/raw/master/_images/shakya-unaligned-contigs.sig
+sourmash sbt_gather -k 31 genbank-k31.sbt.json shakya-unaligned-contigs.sig
+```
+
 [Return to index](index.html)
