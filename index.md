@@ -6,7 +6,7 @@ Paz, Mexico, in mid-May 2017.  Our host was Ricardo Vazquez Juarez.
 
 ## Schedule
 
-[Logging into the cloud!](aws/login-shell-win.html)
+[Logging into the cloud!](aws/log-in-with-mobaxterm-win.html)
 
 [BLAST as an example of command line power](blast.html)
 
