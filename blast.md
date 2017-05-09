@@ -1,4 +1,4 @@
-# Running BLAST from the command line to identify environmental sequnences
+# Running BLAST from the command line to identify environmental sequences
 
 Authored by Jin Choi for EDAMAME2015, based on a previous tutorial.  Modified by Adina Howe.
 [EDAMAME-2015 wiki](https://github.com/edamame-course/2015-tutorials/wiki)
