@@ -2,15 +2,10 @@
 Logging into your new instance "in the cloud" (Windows version)
 ===============================================================
 
-OK, so you've created a running computer.  How do you get to it?
+We've created one Amazon instance per person -- please `pick one corresponding to your number <_static/instances.csv>`__.
 
-The main thing you'll need is the network name of your new computer.
-To retrieve this, go to the instance view and click on the instance,
-and find the "Public DNS".  This is the public name of your computer
-on the Internet.
-
-Copy this name, and connect to that computer with ssh under the username
-'ubuntu', as follows.
+Copy the name or number of your computer , and connect to that
+computer with ssh under the username 'ubuntu', as follows.
 
 ---
 
