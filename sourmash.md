@@ -142,6 +142,10 @@ which will produce a file `ecoli_cmp.matrix.pdf` and `ecoli_cmp.dendro.pdf`
 which you can then download via your file browser and view on your local
 computer.
 
+Here's a PNG version:
+
+![E. coli comparison plot](_images/ecoli_cmp.matrix.png)
+
 ## What's in my metagenome?
 
 Download and unpack a newer version of the k=31 RefSeq index described in
