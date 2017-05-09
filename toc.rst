@@ -10,7 +10,7 @@ Put references to your files below:
    index
    aws/login-shell-win
    blast
-   example
+   assemble
 
 Indices and tables
 ==================

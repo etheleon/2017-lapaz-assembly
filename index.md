@@ -14,7 +14,7 @@ Command line, workflows, and Good Enough Practice
 
 How assembly works
 
-Actually running assembly!
+[Actually running assembly!](assemble.html)
 
 K-mers and sourmash for clustering samples.
 
