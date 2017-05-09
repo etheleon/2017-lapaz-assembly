@@ -2,7 +2,7 @@
 Logging into your new instance "in the cloud" (Windows version)
 ===============================================================
 
-We've created one Amazon instance per person -- please `pick one corresponding to your number <_static/instances.csv>`__.
+We've created one Amazon instance per person -- please `pick one corresponding to your number <https://github.com/ngs-docs/2017-lapaz-assembly/blob/master/_static/instances.csv>`__.
 
 Copy the name or number of your computer , and connect to that
 computer with ssh under the username 'ubuntu', as follows.
