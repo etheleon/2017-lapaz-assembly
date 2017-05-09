@@ -12,7 +12,7 @@ computer with ssh under the username 'ubuntu', as follows.
 Install mobaxterm
 ~~~~~~~~~~~~~~~~~
 
-First, download `mobaxterm <http://mobaxterm.mobatek.net/download.html>`__ and
+First, download `mobaxterm home edition (portable)  <http://mobaxterm.mobatek.net/download-home-edition.html>`__ and
 run it.
 
 Start a new session
