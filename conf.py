@@ -45,8 +45,8 @@ source_suffix = ['.rst', '.md']
 master_doc = 'toc'
 
 # General information about the project.
-project = u'2014-labibi'
-copyright = u'2014, C. Titus Brown'
+project = u'2017-lapaz-assembly'
+copyright = u'2017, C. Titus Brown et al'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
