@@ -12,7 +12,7 @@ You can read some background about MinHash sketches in this paper:
 To install sourmash, run:
 
 ```
-sudo apt-cache search python3.5-dev python3.5-venv
+sudo apt-get install -y python3.5-dev python3.5-venv
 ```
 
 this installs Python 3.5.
