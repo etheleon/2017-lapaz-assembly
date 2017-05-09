@@ -6,7 +6,9 @@ Paz, Mexico, in mid-May 2017.  Our host was Ricardo Vazquez Juarez.
 
 ## Schedule
 
-BLAST as an example of command line power
+[Logging into the cloud!](aws/login-shell-win.html)
+
+[BLAST as an example of command line power](blast.html)
 
 Command line, workflows, and Good Enough Practice
 

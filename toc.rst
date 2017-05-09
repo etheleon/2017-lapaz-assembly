@@ -1,10 +1,5 @@
-.. labibi documentation master file, created by
-   sphinx-quickstart on Sun Nov  4 10:10:29 2012.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Welcome to the labibi demo site!
-================================
+Welcome to the La Paz workshop site!
+====================================
 
 Put references to your files below:
 
@@ -13,6 +8,8 @@ Put references to your files below:
 
    README
    index
+   aws/login-shell-win
+   blast
    example
 
 Indices and tables
