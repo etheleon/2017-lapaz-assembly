@@ -16,5 +16,5 @@ Paz, Mexico, in mid-May 2017.  Our host was Ricardo Vazquez Juarez.
 
 [Actually running assembly!](assemble.html)
 
-K-mers and sourmash for clustering samples.
+[K-mers and sourmash for clustering samples.](sourmash.html)
 
