@@ -10,9 +10,9 @@ Paz, Mexico, in mid-May 2017.  Our host was Ricardo Vazquez Juarez.
 
 [BLAST as an example of command line power](blast.html)
 
-Command line, workflows, and Good Enough Practice
+[Command line, workflows, and Good Enough Practice](workflows.html)
 
-How assembly works
+[How assembly works - a practical exercise](how-assembly.html)
 
 [Actually running assembly!](assemble.html)
 

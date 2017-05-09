@@ -8,6 +8,7 @@ Put references to your files below:
 
    README
    index
+   workflows
    aws/login-shell-win
    blast
    assemble
