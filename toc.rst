@@ -11,11 +11,9 @@ Put references to your files below:
 .. toctree::
    :maxdepth: 2
 
-   index.md
-   example.rst
-
---titus
-
+   README
+   index
+   example
 
 Indices and tables
 ==================
