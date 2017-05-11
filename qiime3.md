@@ -88,14 +88,14 @@ This will likely give a runtime warning: "The result contains negative eigenvalu
 If we navigate into the new directory, we see there is one results file for each input resemblence matrix.
 
 
-![img17](../img/PCoA_Directory.png)
+![img17](./img/PCoA_Directory.png)
 
 Inspect one of these files.
 ```
 nano pcoa_bray_curtis_otu_table_mc2_w_tax_even5196.txt
 ```
 
-![img18](../img/BC_Eigenvalues.png)
+![img18](./img/BC_Eigenvalues.png)
 
 The first column has SampleIDs, and column names are PCoA axis scores for every dimension.  In PCoA, there are as many dimensions (axes) as there are samples. Remember that, typically, each axis explains less variability in the dataset than the previous axis.
 
@@ -116,7 +116,7 @@ scp -r -i **your key** ubuntu@**your DNS**:EDAMAME_16S/uclust_openref/PCoA_2D_pl
 
 ```
 
-![img19](../img/PCoA_AirTemp.png)
+![img19](./img/PCoA_AirTemp.png)
 
 This is where  a comprehensive mapping file is priceless because any values or categories reported in the mapping file will be automatically color-coded by QIIME for data exploration.  It is like MAGIC!
 
@@ -138,17 +138,12 @@ nmds.py -i compar_div_even5196/bray_curtis_otu_table_mc2_w_tax_even5196.txt -o N
 cd NMDS_Plot
 head mc2_even5196_braycurtis_NMDS_coords.txt
 ```
-![img20](../img/NMDS_BC.png)
+![img20](./img/NMDS_BC.png)
 
 We can also make a quick heatmap in QIIME, which shows the number of sequences per sample relative to one another.  For our sanity (do you really want to look at ~20K OTUs at once?), let's make this heatmap at the phylum level.  To do this, we will use our phylum-level OTU table in the WS_aDiversity/ directory
 
 ```
 make_otu_heatmap.py -i WS_aDiversity_even5196/taxa_summary5196/otu_table_mc2_w_tax_even5196_L2.biom -o heatmap_L2_even5196.pdf
-```
-
-Move it to your desktop and open.
-```
- scp -r -i **yourkey** ubuntu@**yourDNS**:EDAMAME_16S/uclust_openref/heatmap_L2_even5196.pdf  ~/Desktop
 ```
 
 Explore this visualization.  You can filter the minimum number of OTUs, filter by sample ID, or by OTU ID.  Heatmap documentation is [here](http://qiime.org/scripts/make_otu_heatmap.html).
@@ -173,14 +168,6 @@ In the example below, we are making a tab-delimited text file (designated by the
 ```
 biom convert -i otu_table_mc2_w_tax_even5196_CollapseReps.biom -o otu_table_mc2_w_tax_even5196_CollapseReps.txt --table-type "OTU table" --to-tsv --header-key taxonomy --output-metadata-id "ConsensusLineage"
 ```
-
-What are we going to do with this file?  Move it to our desktop for our future R analysis, of course!  Switch to your computer's terminal (not the EC2) to transfer the file using `scp`.
-
-```
-scp -i **yourkey** ubuntu@**yourDNS**:EDAMAME_16S/uclust_openref/otu_table_mc2_w_tax_even5196_CollapseReps.txt ~/Desktop
-```
-
-Now, open it and make sure it is as you expect.  It should be a classic Species X Sample OTU table.
 
 ***
 # YOU DID IT!   HOLIDAY!   CELEBRATE!
