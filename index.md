@@ -18,3 +18,5 @@ Paz, Mexico, in mid-May 2017.  Our host was Ricardo Vazquez Juarez.
 
 [K-mers and sourmash for clustering samples.](sourmash.html)
 
+[Qiime - Part Uno](qiime1.html)
+
