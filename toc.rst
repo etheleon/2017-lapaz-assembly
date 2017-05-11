@@ -14,6 +14,7 @@ Put references to your files below:
    assemble
    how-assembly
    sourmash
+   qiime1
 
 Indices and tables
 ==================
