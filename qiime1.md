@@ -241,7 +241,7 @@ ctrl+b d
 
 
 
-#Bonus Material 
+# Bonus Material 
 
 ### 1.5.3  Exploring results from OTU picking workflow
 #####"Steps" from open reference picking
