@@ -15,6 +15,8 @@ Put references to your files below:
    how-assembly
    sourmash
    qiime1
+   qiime2
+   qiime3
 
 Indices and tables
 ==================
