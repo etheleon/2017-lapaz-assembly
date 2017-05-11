@@ -99,25 +99,6 @@ The "L" stands for "lineage", and each "level" is designated by a number.  L1 is
 
 To view the HTML files, you will need to transfer the HTML files themselves and their companion files in the ```charts``` directory to your desktop using scp. Open a terminal with the working directory on your computer, not the EC2.
 
-**Note**: In the command below, make sure you place the -r flag before the -i flag. 
-
-```
-scp -r -i **your/key/file** ubuntu@**your_DNS**:EDAMAME_16S/uclust_openref/WS_aDiversity_even5196/taxa_summary5196/taxa_summary_plots ~/Desktop
-
-```
-The last command above contains the ```-r``` flag after ```scp```. The r means "recursive", and specifies that because we have a whole directory full of files, we want scp to go back and grab all of the files there, not just one. You will get an error if you try to scp a directory without the -r flag.  
-
-Now go to the desktop and double-click on area_charts.html:
-![img15](../img/Area_Chart1.png)
-
- and bar_charts.html:
-![img15](../img/Bar_Chart1.png)
-
-
-The links above and below the charts point to the raw data or other summaries.  Spend some time exploring all of the different links.
-
-In your browser, carefully inspect and interact with these quick charts.  Though these are not publication-ready, they are a great first exploration of the taxa in the dataset.
-
 
 ***
 
