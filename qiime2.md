@@ -64,8 +64,7 @@ mkdir WS_aDiversity_even5196
 We will calculate richness (observed # taxa) and phylogenetic diversity (PD) for each sample.  Documentation is [here](http://qiime.org/scripts/alpha_diversity.html).
 
 ```
-alpha_diversity.py -i otu_table_mc2.biom -m observed_species,PD_whole_tree -o WS_aDivers
-ity_even5196/WS_aDiversity_even5196.txt -t rep_set.tre
+alpha_diversity.py -i otu_table_mc2.biom -m observed_species,PD_whole_tree -o WS_aDiversity_even5196/WS_aDiversity_even5196.txt -t rep_set.tre
 ```
 
 The `-t` flag designates the tree file for calculating phylogenetic diversity. As always, inspect the results file.  What are the ranges that were observed in richness and PD?
